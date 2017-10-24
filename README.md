@@ -54,4 +54,8 @@ source ~/.bashrc
 source ~/.bashrc
 ```
 
+<kbd>
+  <img src="/source_bashrc.png">
+</kbd>
+
 
