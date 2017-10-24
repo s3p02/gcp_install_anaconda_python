@@ -40,3 +40,18 @@ Ensure that the installer has not changed your python path.
 <kbd>
   <img src="/install_anaconda_4.png">
 </kbd>
+
+# Step 4 : Add jupyter to .bashrc
+
+```
+echo 'alias jupyter=/home/sharan.sreesai/anaconda2/bin/jupyter' >> ~/.bashrc
+source ~/.bashrc
+```
+
+# Verify jupyter version
+
+```
+source ~/.bashrc
+```
+
+
