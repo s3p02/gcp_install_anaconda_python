@@ -1,6 +1,6 @@
-# gcp_install_anaconda_python
+# Jupyter Installation Notebook
 
-# Step 1 : Download Anaconda Python 2.7
+## Step 1 : Download Anaconda Python 2.7
 
 ```
 wget https://repo.continuum.io/archive/Anaconda2-5.0.0.1-Linux-x86_64.sh
@@ -10,7 +10,7 @@ wget https://repo.continuum.io/archive/Anaconda2-5.0.0.1-Linux-x86_64.sh
   <img src="/install_anaconda_1.png">
 </kbd>
 
-# Step 2 : Run Install file
+## Step 2 : Run Install file
 
 ```
 sudo chmod a+x Anaconda2-5.0.0.1-Linux-x86_64.sh
@@ -30,7 +30,7 @@ Hit enter, accept licence terms typing 'yes', confirm location hit enter, finall
   <img src="/install_anaconda_3.png">
 </kbd>
 
-# Step 3 : Recheck python path
+## Step 3 : Recheck python path
 
 ```
 which python
@@ -41,7 +41,7 @@ Ensure that the installer has not changed your python path.
   <img src="/install_anaconda_4.png">
 </kbd>
 
-# Step 4 : Add jupyter to .bashrc
+## Step 4 : Add jupyter to .bashrc
 
 ```
 echo 'alias jupyter=/home/sharan.sreesai/anaconda2/bin/jupyter' >> ~/.bashrc
