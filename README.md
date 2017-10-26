@@ -48,7 +48,7 @@ echo 'alias jupyter=/home/sharan.sreesai/anaconda2/bin/jupyter' >> ~/.bashrc
 source ~/.bashrc
 ```
 
-# Verify jupyter version
+## Verify jupyter version
 
 ```
 source ~/.bashrc
